@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'roboto_reg';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'roboto_bolt';
+    src: url(fonts/Roboto-Bold.ttf);
+}
+body{
+    background-color: #E5E5E5;
+}
+.cards{
+    font-size: 0;
+}
+.card{
+    background-color: #E0E0E0;
+    display: inline-block;
+    height: 226px;
+width: 200px;
+left: -332px;
+top: -320px;
+border-radius: 0px;
+margin: 15px;
+box-sizing: border-box;
+}
+img{
+    display: block;
+}
+.image{
+    height: 130px;
+    width: 130px;
+    padding-top: 0px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 0px;
+}
+.p_title{
+font-family: 'roboto_bolt',sans-serif;
+ height: 22px;
+ width: 200px;
+text-align: center;
+font-size: 18px;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 0px;
+margin-right: 0px;
+line-height: 22px;
+}
+.descr{
+font-family: 'roboto_reg',sans-serif;
+height: 36px;
+width: 200px;
+text-align: center;
+font-size: 14px;
+margin-top: 0px;
+margin-bottom: 18px;
+margin-left: 0px;
+margin-right: 0px;
+overflow:hidden;
+}
